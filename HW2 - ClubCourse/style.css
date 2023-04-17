@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+    background-image: url(/images/bg01.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+table{
+    width: 80%;
+    margin: auto;
+    font-size: 1.5em;
+}
+
+td{
+    border-bottom: 1px solid blue;
+
+}
+th{
+    border-bottom: 5px solid rgb(134, 53, 53);
+
+}

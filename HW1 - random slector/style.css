@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+    /* background-image: url(/images/RANDOM_SLECTOR.jpg); */
+    background-image: url(/images/bg01.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+li{
+
+    text-align: left;
+}
+#block_big{
+    position: relative;
+
+    border: 1px;
+}
+
+#block_small{
+    position: absolute;
+    top: 300px;
+    left: 40%;
+    width: 200px;
+    height: 150px;
+    
+    border: 1px ;
+}

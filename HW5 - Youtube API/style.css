@@ -1,0 +1,14 @@
+body{
+    text-align:center;
+    background-image: url(/images/bg01.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+h2{
+    /*預留歌曲名稱顯示空間*/
+    height:32px;
+    font-size:medium;
+}

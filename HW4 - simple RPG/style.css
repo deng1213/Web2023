@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+    background-image: url(/images/bg01.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+canvas{
+    border: 2px solid black; 
+    background-image: url(images/grasses68.gif);
+}
+
+#talkBox{
+    height: 20px;
+    color: brown;
+    font-size: 26px;
+    font-weight: bold;
+}
