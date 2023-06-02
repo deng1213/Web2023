@@ -5,7 +5,7 @@ $(function(){
 });
 
 function showDate(){
-    console.log("inn");
+    //console.log("inn");
     var thisDate = this.value;
     thisDate = thisDate.replace(/-/g,"");
     thisImage = new Image();
@@ -17,3 +17,8 @@ function showDate(){
     };
 }
     
+const colorPicker = document.getElementById("colorPicker");
+
+colorPicker.addEventListener("change", function() {
+  document.body.style.backgroundColor = colorPicker.value;
+});
