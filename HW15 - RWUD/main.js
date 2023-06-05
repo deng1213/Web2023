@@ -7,7 +7,7 @@ $(function(){
 });
 
 function readHandler(){
-    let url="http://localhost:3000/to-do";
+    let url="http://web-final.azurewebsites.net/to-do";
     $.getJSON(url)
     .done(function(msg){
         console.log(msg);
@@ -20,7 +20,7 @@ function readHandler(){
 }
 
 function updateHandler(){
-    let url="http://localhost:3000/to-do/1";
+    let url="http://web-final.azurewebsites.net/to-do/1";
     
     $.ajax({
         url:url,
@@ -34,7 +34,7 @@ function updateHandler(){
 }
 
 function writeHandler(){
-    let url="http://localhost:3000/to-do/";
+    let url="http://web-final.azurewebsites.net/to-do/";
     
     $.post(url,{task:"loundry"})
     
@@ -49,7 +49,7 @@ function writeHandler(){
 }
 
 function deleteHandler(){
-    let url="http://localhost:3000/to-do/2";
+    let url="http://web-final.azurewebsites.net/to-do/2";
     
     $.ajax({
         url: url,
